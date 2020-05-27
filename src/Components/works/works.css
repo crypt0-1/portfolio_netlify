@@ -9,7 +9,7 @@
 }
 .screenshot {
   
-  filter: grayscale(100%);
+
   float: right;
   height: 150px;
   width: 40%;
@@ -17,7 +17,7 @@
 }
 
 .screenshot2 {
-    filter: grayscale(100%);
+    
     float: left;
     height: 200px;
     width: 80%;

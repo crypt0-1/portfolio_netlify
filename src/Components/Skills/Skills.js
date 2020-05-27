@@ -90,23 +90,23 @@ toggleFour = () => {
            className={this.state.stateOne   ?  "changeColor1" : "select1" }
            onClick={this.toggleOne}
          >
-           <div >Web</div>
+           <p >Web</p>
          </li>
          <li  className={this.state.stateTwo   ?   "changeColor2" : "select2" }
            onClick={this.toggleTwo}>
-           <div>Flutter</div>
+           <p>Flutter</p>
          </li>
          <li className={this.state.StateThree ?   "changeColor3" : "select3" }
            onClick={this.toggleThree}
           
          >
-           <div>Designs</div>
+           <p>Designs</p>
          </li>
          <li  className={this.state.StateFour ?   "changeColor4" : "select4" }
            onClick={this.toggleFour}
            
          >
-           <div>Skill level</div>
+           <p>Skill level</p>
          </li>
        </ul>
      </div>
