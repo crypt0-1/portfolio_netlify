@@ -1,135 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-
-div{
+div {
   letter-spacing: 0.09em;
   /* font-family: 'Montserrat', sans-serif; */
-  font-family: 'Roboto', sans-serif;
-  
+  font-family: "Roboto", sans-serif;
 }
 
-.github
-{
+.github {
   font-family: consolas;
   margin-left: 16%;
-    position: relative;
-    display: inline-block;
-    padding: 15px 30px;
-    color: #2196f3;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    text-decoration: none;
-    font-size: 15px;
-    font-style: bold;
-    overflow: hidden;
-    transition: 0.2s;
-    border-radius: 8px;
-    
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #2196f3;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 15px;
+  font-style: bold;
+  overflow: hidden;
+  transition: 0.2s;
+  border-radius: 8px;
 }
-.github:hover
-{
-    color: #ffffff;
-    background: #21b8f3;
-    /* box-shadow: 0 0 5px #21b8f3, 0 0 20px #21b8f3, 0 0 40px #21b8f3; */
-    transition-delay: 1s;
+.github:hover {
+  color: #ffffff;
+  background: #21b8f3;
+  /* box-shadow: 0 0 5px #21b8f3, 0 0 20px #21b8f3, 0 0 40px #21b8f3; */
+  transition-delay: 1s;
 }
-.github span
-{
-    
-    position: absolute;
-    display: block;
+.github span {
+  position: absolute;
+  display: block;
 }
-.github span:nth-child(1)
-{
-    top: 0;
-    left: -100%;
-    width: 50%;
-    height: 2px;
-    background: linear-gradient(270deg,transparent,#21b8f3);
+.github span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #21b8f3);
 }
-a:hover span:nth-child(1)
-{
-    left: 100%;
-    transition: 1s;
-} 
-.github span:nth-child(2)
-{
-    bottom: 0;
-    right: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(270deg,transparent,#21b8f3);
+a:hover span:nth-child(1) {
+  left: 100%;
+  transition: 1s;
 }
-.github:hover span:nth-child(2)
-{
-    right: 100%;
-    transition: 1s;
-    transition-delay: 0.5s;
+.github span:nth-child(2) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #21b8f3);
 }
-.github span:nth-child(3)
-{
-    top: -100℅;
-    right: 0%;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(270deg,transparent,#21b8f3);
+.github:hover span:nth-child(2) {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
 }
-.github:hover span:nth-child(3)
-{
-    top: 100%;
-    transition: 1s;
-    transition-delay: 0.25s;
+.github span:nth-child(3) {
+  top: -100℅;
+  right: 0%;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(270deg, transparent, #21b8f3);
 }
-.github span:nth-child(4)
-{
-    bottom: -100℅;
-    left: 0%;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(270deg,transparent,#21b8f3);
+.github:hover span:nth-child(3) {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
 }
-.github:hover span:nth-child(4)
-{
-    bottom: 100%;
-    transition: 1s;
-    transition-delay: 0.75s;
+.github span:nth-child(4) {
+  bottom: -100℅;
+  left: 0%;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(270deg, transparent, #21b8f3);
 }
-.github{
+.github:hover span:nth-child(4) {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+.github {
   height: 2%;
-margin-left: 37%;
+  margin-left: 37%;
 }
 
-
-.skills{
+.skills {
   display: flex;
-    margin: 15% 0% 0 5%;
+  margin: 15% 0% 0 5%;
 }
 .place {
   float: left;
+  padding: 2px;
 }
 
-.select li {
+.select div {
   cursor: pointer;
   padding: 0.4em;
   list-style: none;
 }
 .para {
- 
   font-size: 0.8em;
-  color:rgb(129, 129, 129);
- 
+  color: rgb(129, 129, 129);
+
   margin: 1.2em 0 0 4%;
 }
 .select1 {
   color: black;
 
   border-left: 3px solid rgba(236, 236, 236, 0.63);
-  
 }
 .changeColor1 {
-  color: rgb(255, 255, 255);
+  color: rgb(95, 95, 95);
 
   border-left: 3px solid cyan;
   background-color: rgba(122, 255, 255, 0.247);
@@ -144,7 +126,6 @@ margin-left: 37%;
   color: black;
 
   border-left: 3px solid rgba(236, 236, 236, 0.63);
-  
 }
 .changeColor2 {
   color: black;
@@ -162,11 +143,10 @@ margin-left: 37%;
   color: black;
 
   border-left: 3px solid rgba(236, 236, 236, 0.63);
-  
 }
 .changeColor3 {
   color: white;
-  
+
   border-left: 3px solid cyan;
   background-color: rgba(122, 255, 255, 0.247);
 }
@@ -180,7 +160,6 @@ margin-left: 37%;
   color: black;
 
   border-left: 3px solid rgba(236, 236, 236, 0.63);
- 
 }
 .changeColor4 {
   color: black;
@@ -194,44 +173,40 @@ margin-left: 37%;
   border-left: 3px solid cyan;
   background-color: rgba(122, 255, 255, 0.247);
 }
-.works{
-  margin:8em 0 -10% 28%;
-  color:rgb(2, 162, 255);
+.works {
+  margin: 8em 0 -10% 28%;
+  color: rgb(2, 162, 255);
   font-size: 2em;
   font-style: bold;
 }
-.select li{
-  color:rgb(134, 134, 134);
-  font-size: 1.0.5em;
+.select li {
+  color: rgb(134, 134, 134);
+  font-size: 1.5em;
 }
-.skillLevel{
+.skillLevel {
   width: 120%;
   margin: -10% 0 0 10%;
 }
-.levels{
+.levels {
   width: 50%;
-  
 }
-.links{
+.links {
   text-decoration: none;
-  
-
 }
-.links p{
+.links p {
   margin-left: 5%;
 }
 @media only screen and (min-width: 500px) {
-  .skills{
+  .skills {
     display: flex;
-      margin: 15% 0% 0 26%;
+    margin: 15% 0% 0 26%;
   }
 }
 @media only screen and (min-width: 750px) {
   .para {
- 
     font-size: 1.1em;
-    color:rgb(129, 129, 129);
-   
+    color: rgb(129, 129, 129);
+
     margin: 1.2em 0 0 4%;
   }
 }

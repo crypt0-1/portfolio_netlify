@@ -78,32 +78,32 @@ class Skills extends React.Component {
 
         <div className="skills">
           <div className="select place">
-            <ul>
-              <li
+            <div>
+              <div
                 className={this.state.stateOne ? "changeColor1" : "select1"}
                 onClick={this.toggleOne}
               >
                 Web
-              </li>
-              <li
+              </div>
+              <div
                 className={this.state.stateTwo ? "changeColor2" : "select2"}
                 onClick={this.toggleTwo}
               >
                 Flutter
-              </li>
-              <li
+              </div>
+              <div
                 className={this.state.StateThree ? "changeColor3" : "select3"}
                 onClick={this.toggleThree}
               >
                 Designs
-              </li>
-              <li
+              </div>
+              <div
                 className={this.state.StateFour ? "changeColor4" : "select4"}
                 onClick={this.toggleFour}
               >
                 Skill level
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
           <div className="levels">
             <div className="para place">{this.state.message}</div>
