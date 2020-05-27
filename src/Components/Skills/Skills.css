@@ -94,7 +94,7 @@ a:hover span:nth-child(1) {
   padding: 2px;
 }
 
-.select div {
+.select  {
   cursor: pointer;
   padding: 0.4em;
   list-style: none;
@@ -106,68 +106,79 @@ a:hover span:nth-child(1) {
   margin: 1.2em 0 0 4%;
 }
 .select1 {
+  padding: 0.4em;
   color: black;
 
   border-left: 3px solid rgba(236, 236, 236, 0.63);
 }
 .changeColor1 {
+  padding: 0.4em;
   color: rgb(95, 95, 95);
 
   border-left: 3px solid cyan;
   background-color: rgba(122, 255, 255, 0.247);
 }
 .select1:hover {
+  padding: 0.4em;
   color: black;
 
   border-left: 3px solid cyan;
   background-color: rgba(122, 255, 255, 0.247);
 }
 .select2 {
+  padding: 0.4em;
   color: black;
 
   border-left: 3px solid rgba(236, 236, 236, 0.63);
 }
 .changeColor2 {
+  padding: 0.4em;
   color: black;
 
   border-left: 3px solid cyan;
   background-color: rgba(122, 255, 255, 0.247);
 }
 .select2:hover {
+  padding: 0.4em;
   color: black;
 
   border-left: 3px solid cyan;
   background-color: rgba(122, 255, 255, 0.247);
 }
 .select3 {
+  padding: 0.4em;
   color: black;
 
   border-left: 3px solid rgba(236, 236, 236, 0.63);
 }
 .changeColor3 {
+  padding: 0.4em;
   color: white;
 
   border-left: 3px solid cyan;
   background-color: rgba(122, 255, 255, 0.247);
 }
 .select3:hover {
+  padding: 0.4em;
   color: black;
 
   border-left: 3px solid cyan;
   background-color: rgba(122, 255, 255, 0.247);
 }
 .select4 {
+  padding: 0.4em;
   color: black;
 
   border-left: 3px solid rgba(236, 236, 236, 0.63);
 }
-.changeColor4 {
+.changeColor4 {padding: 0.4em;
   color: black;
 
   border-left: 3px solid cyan;
   background-color: rgba(122, 255, 255, 0.247);
 }
 .select4:hover {
+  padding: 0.4em;
   color: black;
 
   border-left: 3px solid cyan;
