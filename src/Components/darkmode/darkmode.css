@@ -67,8 +67,11 @@
     border-radius: 50%;
   }
   .darkmode{
- 
+    
     float: right;
    margin-top:0.5%;
    
+  }
+  body{
+    padding: 10px;
   }
