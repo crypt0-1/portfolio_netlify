@@ -25,9 +25,9 @@ class Works extends React.Component {
           <a href="https://github.com/crypt0-1/youtube-channel-api-flutter-" target="_blank"> <img src={you} alt="server graphic" className="screenshot2" /></a>
               <div className="text">
              
-              <a href="https://github.com/crypt0-1/youtube-channel-api-flutter-" target="_blank"><p className="Title2">youtube channel(api) </p></a>
+              <a href="https://github.com/crypt0-1/youtube-channel-api-flutter-" target="_blank"><p className="Title2">Amazon clone</p></a>
             <p className="subTitle2">
-              I used youtube api and flutter to create an app that displays a particular channel and it's videos 
+            Amazon clone using MERN stack,frontend-React,backend-node,mongodb,express.Used redux with react to solve state mangement problems
 
             </p>
             </div>
@@ -39,9 +39,9 @@ class Works extends React.Component {
           <a href="https://github.com/crypt0-1/ecommerce_website" target="_blank"><img src={shot} alt="server graphic" className="screenshot" /></a>
           <div className="heading">
               
-          <a href="https://github.com/crypt0-1/ecommerce_website" target="_blank"><p className="wTitle">Ecommerce website </p></a>
+          <a href="https://github.com/crypt0-1/ecommerce_website" target="_blank"><p className="wTitle">exercise tracker  </p></a>
             <p className="wsubTitle">
-             i am Building a fully functional eccomerce website.
+            Exercise tracker created with mern stack mongodb,express,react and node.
             </p>
           </div>
         </div>
