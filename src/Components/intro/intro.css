@@ -1,0 +1,153 @@
+.intro{
+        margin: 8em;
+}
+.headings{
+    width:80%;
+     padding-left: 10%;
+}
+p span {
+    display: none;
+}
+span{
+    
+    color:rgb(0, 224, 253);
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.hTitle{
+    margin-top: -0.2%;
+    font-size: 2em;
+    margin-left: -0.8%;
+    color:rgb(109, 109, 109);
+}
+.hsubTitle{
+    font-size: 1.8em;
+    margin-top: -8%;
+    color:rgb(129, 129, 129);
+    
+}
+.greeting {
+    
+    font-size: 1.4em;
+    color:rgb(110, 110, 110);
+   
+}
+@media only screen and (min-width: 300px) {
+    span{
+        
+        font-size: 3em;
+       
+    }
+    .hsubTitle{
+        font-size: 0.9em;
+      
+        
+    }
+    .hTitle{
+      
+        font-size: 1.5em;
+        
+    }
+    .greeting {
+        
+        font-size: 0.8em;
+        
+    }
+}
+@media only screen and (min-width: 650px) {
+    .headings{
+        width:80%;
+         padding-left: 10%;
+    }
+    span{
+        
+        font-size: 1.5em;
+       
+    }
+    .hTitle{
+      
+        font-size: 3em;
+        
+    }
+    .hsubTitle{
+        font-size: 1.8em;
+      
+        
+    }
+    .greeting {
+        
+        font-size: 1.4em;
+        
+       
+    }
+
+}
+@media only screen and (min-width: 690px) {
+    .headings{
+        width:80%;
+         padding-left: 10%;
+    }
+    span{
+        
+        font-size: 1.5em;
+       
+    }
+}
+@media only screen and (min-width: 950px) {
+    .headings{
+        width:90%;
+         padding-left: 10%;
+    }
+    span{
+      
+        font-size: 2em;
+       
+    }
+    .hTitle{
+      
+        font-size: 3em;
+        
+    }
+    .hsubTitle{
+        font-size: 1.8em;
+      
+        
+    }
+    .greeting {
+        
+        font-size: 1.4em;
+        
+       
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .headings{
+    width:80%;
+     padding-left: 10%;
+}
+    span{
+        
+        font-size: 2em;
+       
+    }
+    .hTitle{
+      
+        font-size: 3em;
+        
+    }
+    .hsubTitle{
+        margin-top: -5%;
+        font-size: 1.8em;
+      
+        
+    }
+    .greeting {
+        
+        font-size: 1.4em;
+        
+       
+    }
+
+}
